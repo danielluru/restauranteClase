@@ -1,0 +1,192 @@
+body{
+    margin:0%;
+    padding: 0%;
+    background-color: rgb(29, 28, 28);
+    place-items: center;
+    display: grid;
+    color: white;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: rgb(29, 28, 28);
+    width: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.main{
+    margin: 70px;
+    width: 1600px;
+    height: 300px;
+}
+
+.main a{
+    color: white;
+}
+
+#chef{
+    float: left;
+    margin-right: 20px;
+}
+
+#restaurante{
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+form {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.formulario{
+    text-align: center;
+}
+
+
+
+
+
+
+
+#menuDiario ul,
+#menuInfantil ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menuDiario ul li,
+#menuInfantil ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; 
+}
+
+#menuDiario ul li img,
+#menuInfantil ul li img {
+    display: block; 
+    width: 200px; 
+    height: 200px; 
+    margin-bottom: 10px; 
+}
+
+#menuDiario h2,
+#menuInfantil h2 {
+    margin-bottom: 10px; /* Espacio entre los títulos y las listas */
+}
+
+
+#tablaEscuela{
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border: none; 
+    }
+    td {
+        padding: 60px; 
+        text-align: center;
+        border: none; 
+        vertical-align: middle; 
+    }
+    div {
+        text-align: center;
+    }
+    div img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+}
+
+
+/*footer*/
+
+.container {
+    position: flex; 
+  }
+  
+  .box {
+    position: absolute; 
+    padding: 40px; 
+    margin: 20px; 
+   
+  }
+  
+  #contacto {
+    left: 100px;
+  }
+  
+  #redesSociales {
+    left: 40%; 
+  }
+  
+  #horario {
+    right: 100px;
+  }

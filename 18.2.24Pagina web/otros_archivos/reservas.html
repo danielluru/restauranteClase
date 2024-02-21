@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Reservas</title>
+</head>
+<body>
+    <header>
+        <h1>Bar Paquiña</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="Carta.html">Carta</a></li>
+            <li><a href="Menus.html">Menus</a></li>
+            <li><a href="escuelaDeCocina.html">Escuela de cocina</a></li>
+            <li><a href="localizacion.html">Localizacion</a></li>
+            <li><a href="#f">Contacto</a></li>
+            <li><a>Reservas</a></li>
+        </ul>
+    </nav>
+    <div id="formulario">
+        <form action="procesar_reserva.php" method="post">
+            <h2>Reserva de Restaurante</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="fecha">Fecha de reserva:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora de reserva:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="personas">Número de personas:</label>
+            <select id="personas" name="personas" required>
+                <option value="1">1 persona</option>
+                <option value="2">2 personas</option>
+                <option value="3">3 personas</option>
+                <option value="5">5 personas</option>
+                <option value="6">6 personas</option>
+                <option value="7">7 personas</option>
+                <option value="8">8 personas</option>
+                <option value="9">9 personas</option>
+                <option value="10">10 personas</option>
+                <option value="11">11 personas</option>
+                <option value="12">12 personas</option>
+                <option value="13">13 personas</option>
+                <option value="14">14 personas</option>
+                <option value="15">15 personas</option>
+                <option value="16">16 personas</option>
+            </select>
+            <button type="submit">Enviar Reserva</button>
+        </form>
+    </div>
+    <footer>
+        <div class="container">
+            <div id="contacto" class="box">
+                <p>Nos situamos en: C/ Alibabá 21 Seseña</p>
+                <p>Tel: 91-456 95 21 47 / 699 87 74 45</p>
+            </div>
+            <div id="redesSociales" class="box">
+                <p>Instagram</p><img src="../imagenes/instagram.jpg" width=30px></li>
+                <p>Facebook</p><img src="../imagenes/Facebook.JPG" width=30px></li>
+                <p>X</p><img src="../imagenes/logox.JPG" width=30px></li>
+            </div>
+            <div id="horario" class="box">
+                <p>Martes a Jueves: 12:00-23:00 <br>
+                    Viernes y Sábados: 12:00-1.00<br>
+                    Domingos: 12:00-23:00<br>
+                    LUNES CERRADO</p>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
